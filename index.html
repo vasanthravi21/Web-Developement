@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>House Task</title>
+    <style>
+      .home{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin: -25px 0 0 -25px;
+      }
+        .triangle{
+            width: 0px;            
+            height: 0px;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-bottom: 50px groove #5a03fc;
+
+           
+            /* <!-- hash tag must be in hex values color --> */
+        }
+        .parallelogram{
+            width: 100px;
+	        height: 50px;
+            margin-left: 12px;
+	        transform: skew(25deg);
+	        background: #000000;
+            
+        }
+        
+        .rect {
+	        margin-left: 50px;
+            position: fixed;
+	        width: 100px;
+        	height: 100px;
+	        background:  #5a03fc;
+            
+        }
+        
+         .square {
+	        width: 50px;
+	        height: 100px;
+            
+	       background: #000000;
+           
+        }
+		.wind{
+			margin-left: 50px;
+			margin-top: 10px;
+			width: 40px;
+			height: 40px;
+			background-color: white;
+		}
+        .chi{
+            position: absolute;
+            
+            margin-top: 25px;
+            margin-left: -8px;
+
+            width: 20px;
+            height: 20px;
+            background-color: black;
+            border-radius: 50%;
+        }
+        .dor{
+            position: absolute;
+            margin-top: 70px;
+            margin-left: 15px;
+            width: 20px;
+            height: 30px;
+            background-color: white;
+         
+        }
+        body{
+            
+            background-color:#66D0FF;
+        }
+        .dot{
+            width: 50px;
+            height: 50px;
+            background-color: gray;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 20px;
+        }
+        .dot-down{
+            width: 50%;
+            height: 50%;
+            background-color: gray;
+            border-radius: 50%;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .dot-left-down{
+            height: 50px;
+            width: 50px;
+            background-color: gray;
+            border-radius: 1000%;
+            display: inline-block;
+            margin-left:-30px;
+        }
+
+        .cloud{
+            position: relative;
+            animation: clouds 15s infinite;
+		}
+		@keyframes clouds {
+ 			0% {left: 0px;}
+			50% {left: 200px;}
+			100%{left:0px;}
+} 
+		.home{
+            position:fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="cloud">
+       <div class="dot"> 
+       <div class="dot"> 
+       <div class="dot"> 
+       <div class="dot-down"> 
+       <div class="dot-left-down"> 
+       <div class="dot-left-down"> 
+    </div>
+	<div class="cloud">
+		<div class="dot"> 
+		<div class="dot"> 
+		<div class="dot"> 
+		<div class="dot-down"> 
+		<div class="dot-left-down"> 
+		<div class="dot-left-down"> 
+	 </div>
+	 <div class="cloud">
+		<div class="dot"> 
+		<div class="dot"> 
+		<div class="dot"> 
+		<div class="dot-down"> 
+		<div class="dot-left-down"> 
+		<div class="dot-left-down"> 
+	 </div>
+    
+    <div class="home">
+   
+    
+    <div class="triangle">
+        <div class="chi"></div>
+		<div class="parallelogram">
+
+		</div>
+	</div>
+    <div class="square">
+        <div class="dor"></div>
+		<div class="rect">
+
+            <div class="wind"></div>
+        </div>
+        
+	</div>
+</div>
+<div class="rect1"></div>
+    
+   
+    </div>
+</body>
+</html>
